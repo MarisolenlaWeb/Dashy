@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Dashboard">
+    <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+
+    <title>Adventure time: Dashboard</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/adventure-time-theme.css" rel="stylesheet">
+    <link href="css/adventure-time-theme-responsive.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <header>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+                <div class="header bgblack">
+                  <a href="#menu-toggle" class="btn inline-block" id="menu-toggle">
+                    <i class="fa fa-bars menuicon"></i> 
+                  </a>
+                  <h1 class="inline-block">ADVENTURE TIME: DASHBOARD</h1>
+                  <button class="btn logout">Logout</button>
+                </div>  
+            </div>
+          </div>
+        </div>
+      </header>
+            <!-- Sidebar -->       
+              <div id="wrapper">
+                <div id="sidebar-wrapper">
+                    <div>
+                      <img src="img/profile_avatar.png">
+                      <p class="name text-center">Bonnibel Bubblegum</p>
+                    </div>
+                    <nav>
+                      <ul class="sidebar-nav">
+                          <li>
+                              <a href="#"><i class="fa fa-tachometer"></i>Dashboard</a>
+                          </li>
+                          <li class="active">
+                              <a href="#"><i class="fa fa-desktop"></i>Buttons</a>
+                          </li>
+                          <li>
+                              <a href="#"><i class="fa fa-desktop"></i>Progress Bars</a>
+                          </li>
+                          <li>
+                              <a href="#"><i class="fa fa-cogs"></i>Forms</a>
+                          </li>
+                          <li>
+                              <a href="#"><i class="fa fa-th"></i>Data Tables</a>
+                          </li>
+                          <li>
+                              <a href="#"><i class="fa fa-tasks"></i>Gallery</a>
+                          </li>
+                          <li>
+                              <a href="#"><i class="fa fa-book"></i>Login Page</a>
+                          </li>
+                      </ul>
+                    </nav>
+                </div>
+              <!-- /#sidebar-wrapper -->
+
+              <!-- Page Content -->
+                <div id="page-content-wrapper">
+                    <div class="container-fluid">
+                        <div class="row">
+                          <div class="col-xs-12 col-md-4">
+                            <a href="#" class="thumbnail">
+                              <img src="img/portfolio/port04.jpg" alt="...">
+                            </a>
+                          </div>
+                          <div class="col-xs-12 col-md-4">
+                            <a href="#" class="thumbnail">
+                              <img src="img/portfolio/port05.jpg" alt="...">
+                            </a>
+                          </div>
+                          <div class="col-xs-12 col-md-4">
+                            <a href="#" class="thumbnail">
+                              <img src="img/portfolio/port06.jpg" alt="...">
+                            </a>
+                          </div>
+                          <div class="col-xs-12 col-md-4">
+                            <a href="#" class="thumbnail">
+                              <img src="img/portfolio/port01.jpg" alt="...">
+                            </a>
+                          </div>
+                          <div class="col-xs-12 col-md-4">
+                            <a href="#" class="thumbnail">
+                              <img src="img/portfolio/port02.jpg" alt="...">
+                            </a>
+                          </div>
+                          <div class="col-xs-12 col-md-4">
+                            <a href="#" class="thumbnail">
+                              <img src="img/portfolio/port03.jpg" alt="...">
+                            </a>
+                          </div>
+                          <div class="col-xs-12 col-md-4">
+                            <a href="#" class="thumbnail">
+                              <img src="img/portfolio/port04.jpg" alt="...">
+                            </a>
+                          </div>
+                          <div class="col-xs-12 col-md-4">
+                            <a href="#" class="thumbnail">
+                              <img src="img/portfolio/port05.jpg" alt="...">
+                            </a>
+                          </div>
+                          <div class="col-xs-12 col-md-4">
+                            <a href="#" class="thumbnail">
+                              <img src="img/portfolio/port06.jpg" alt="...">
+                            </a>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+              <!-- /#page-content-wrapper -->
+              </div>
+    <!-- /#wrapper --> 
+
+    <!-- js placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/common-scripts.js"></script>
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+  </body>
+</html>
